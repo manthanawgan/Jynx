@@ -1,0 +1,48 @@
+# Application Settings
+app:
+  name: "EV Charging Load Balancer"
+  version: "1.0.0"
+  description: "Community EV Charging Load Balancer with Smartcar Integration"
+
+# Charging Configuration
+charging:
+  default_power_kw: 7.0
+  max_power_kw: 22.0
+  min_power_kw: 3.0
+  session_timeout_minutes: 480  # 8 hours max
+  emergency_priority_boost: 2.0
+
+# Scheduling Configuration
+scheduling:
+  slot_duration_minutes: 30
+  rebalance_interval_seconds: 60
+  max_wait_time_minutes: 120
+  fairness_window_hours: 24
+
+# Grid Configuration
+grid:
+  peak_shaving_threshold_percent: 85
+  emergency_reserve_percent: 10
+  transformer_efficiency: 0.95
+
+# Fairness Rules
+fairness:
+  priority_factors:
+    soc_threshold: 0.20  # Below 20% gets priority
+    wait_time_weight: 0.3
+    emergency_weight: 1.0
+    abuse_penalty: 0.5
+
+# Smartcar Integration
+smartcar:
+  scopes:
+    - "read_vehicle_info"
+    - "read_location"
+    - "read_odometer"
+    - "read_charge"
+  token_refresh_buffer_seconds: 300  # Refresh 5 min before expiry
+
+# Monitoring
+monitoring:
+  health_check_interval_seconds: 30
+  metrics_collection_interval_seconds: 60

@@ -1,0 +1,3 @@
+"""
+Event consumers package.
+"""
