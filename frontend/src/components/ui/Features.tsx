@@ -130,16 +130,15 @@ export default function Features() {
         {/* Content */}
         <div className="col-span-2 my-auto px-2">
           <h2 className="relative text-lg font-semibold tracking-tight text-orange-500">
-            Smart Farming Solutions
+          Smart Community Charging
             <div className="absolute top-1 -left-[8px] h-5 w-[3px] rounded-r-sm bg-orange-500" />
           </h2>
           <p className="mt-2 text-3xl font-semibold tracking-tighter text-balance text-gray-900 md:text-4xl">
-            A network of autonomous systems for complete farm monitoring
+          An intelligent network for city-wide EV power management.
           </p>
           <p className="mt-4 text-balance text-gray-700">
-            Deploy intelligent monitoring and automated response systems across
-            your fields, irrigation networks, and aerial operations with our
-            integrated platform.
+          Coordinate thousands of chargers across neighborhoods, apartment complexes, and commercial hubs with software-driven orchestration,
+          reducing peak demand while ensuring every driver gets fair access.
           </p>
         </div>
         <div className="relative col-span-2 flex items-center justify-center overflow-hidden">
@@ -195,7 +194,7 @@ export default function Features() {
                           <RiCircleLine className="size-3 shrink-0 text-white" />
                         </div>
                         <div className="rounded-r-full bg-white/50 py-0.5 pr-1.5 pl-1 text-xs whitespace-nowrap ring-1 ring-gray-200">
-                          Drivetrain Error
+                        Emergency Request
                         </div>
                       </div>
                     </div>
@@ -256,7 +255,7 @@ export default function Features() {
                           <RiCheckLine className="size-3 shrink-0 text-white" />
                         </div>
                         <div className="rounded-r-full bg-white/50 py-0.5 pr-1.5 pl-1 text-xs ring-1 ring-gray-200">
-                          Farming
+                        Slot Scheduled
                         </div>
                       </div>
                     </div>
@@ -298,17 +297,16 @@ export default function Features() {
 
         <div className="col-span-2 my-auto px-2">
           <h2 className="relative text-lg font-semibold tracking-tight text-orange-500">
-            Precision Agriculture
+          Grid-Friendly Optimization
             <div className="absolute top-1 -left-[8px] h-5 w-[3px] rounded-r-sm bg-orange-500" />
           </h2>
           <p className="mt-2 text-3xl font-semibold tracking-tighter text-balance text-gray-900 md:text-4xl">
-            Turn every acre into a data-driven powerhouse
+          Turn local power limits into smart scheduling decisions.
           </p>
           <p className="mt-4 text-balance text-gray-700">
-            Revolutionize your farming operation with edge-computing AI that
-            transforms raw field data into actionable insights in real-time.
-            Make informed decisions faster, reduce resource waste, and maximize
-            yields.
+          Our AI-assisted system continuously monitors transformer capacity,
+          grid congestion, and charger usage to assign optimal charging slots, prevent overloads,
+          and protect urban distribution networks in real time.
           </p>
         </div>
         <div className="relative col-span-2 flex items-center justify-center overflow-hidden">
@@ -363,7 +361,7 @@ export default function Features() {
                   <div className="absolute inset-0 size-12 animate-pulse bg-orange-200 blur-[3px]"></div>
                   <div className="relative flex h-12 w-12 items-center justify-center bg-white ring-1 shadow-sm ring-black/15">
                     <span className="text-sm font-medium text-gray-500">
-                      14°C
+                    72%
                     </span>
                   </div>
                 </div>
@@ -374,7 +372,7 @@ export default function Features() {
                   <div className="absolute inset-0 size-12 animate-pulse bg-orange-200 blur-[3px]"></div>
                   <div className="relative flex h-12 w-12 items-center justify-center bg-white ring-1 shadow-sm ring-black/15">
                     <span className="text-sm font-medium text-gray-500">
-                      18°C
+                    4
                     </span>
                   </div>
                 </div>
@@ -385,7 +383,7 @@ export default function Features() {
                   <div className="absolute inset-0 size-12 animate-pulse bg-orange-200 blur-[3px]"></div>
                   <div className="relative flex h-12 w-12 items-center justify-center bg-white ring-1 shadow-sm ring-black/15">
                     <span className="text-sm font-medium text-gray-500">
-                      17°C
+                    150 W
                     </span>
                   </div>
                 </div>
@@ -396,7 +394,7 @@ export default function Features() {
                   <div className="absolute inset-0 size-12 animate-pulse bg-orange-200 blur-[3px]"></div>
                   <div className="relative flex h-12 w-12 items-center justify-center bg-white ring-1 shadow-sm ring-black/15">
                     <span className="text-sm font-medium text-gray-500">
-                      14°C
+                    3
                     </span>
                   </div>
                 </div>
@@ -407,7 +405,7 @@ export default function Features() {
                   <div className="absolute inset-0 size-12 animate-pulse bg-orange-200 blur-[3px]"></div>
                   <div className="relative flex h-12 w-12 items-center justify-center bg-white ring-1 shadow-sm ring-black/15">
                     <span className="text-sm font-medium text-gray-500">
-                      12°C
+                    12%
                     </span>
                   </div>
                 </div>
@@ -428,16 +426,16 @@ export default function Features() {
         </div>
         <div className="col-span-2 my-auto px-2">
           <h2 className="relative text-lg font-semibold tracking-tight text-orange-500">
-            Easy Expansion
+          Easy Expansion
             <div className="absolute top-1 -left-[7px] h-5 w-[3px] rounded-r-sm bg-orange-500" />
           </h2>
           <p className="mt-2 text-3xl font-semibold tracking-tighter text-balance text-gray-900 md:text-4xl">
-            Scale your smart farm with plug-and-play simplicity
+          Scale EV infrastructure without expensive upgrades.
           </p>
           <p className="mt-4 text-balance text-gray-700">
-            Add new sensors and capabilities to your farm network with zero
-            setup required. Our systems automatically connect and coordinate
-            with each other.
+          Add new charging stations, fleets, or neighborhoods instantly.
+          Our platform connects to existing chargers and vehicle systems using open standards and OEM integrations,
+          no hardware replacements required.
           </p>
         </div>
         <div className="relative col-span-2 flex items-center justify-center overflow-hidden">

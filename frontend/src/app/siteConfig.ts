@@ -1,7 +1,7 @@
 export const siteConfig = {
-  name: "Solar Technologies",
-  url: "https://solar.tremor.so",
-  description: "Automation for every Farm.",
+  name: "jynx",
+  url: "jynx.vercel.app",
+  description: "ev",
   baseLinks: {
     home: "/",
   },

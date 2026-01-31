@@ -86,18 +86,16 @@ export const Map = () => {
       </div>
 
       <div className="pt-12 text-base font-semibold tracking-tight text-orange-400 sm:pt-20 sm:text-lg">
-        Farm Management
+      Charging Operations Control Center
       </div>
       <h2
         id="management-title"
         className="mt-6 max-w-[700px] text-center text-2xl font-semibold tracking-tight text-balance text-white md:text-5xl"
       >
-        Monitoring & Control for Precision Agriculture
+        Monitoring & orchestration for city-scale EV networks.
       </h2>
       <p className="mt-4 max-w-2xl text-center text-base text-balance text-gray-400 sm:mt-8 sm:text-xl">
-        Complete oversight of your farming operations across fields, irrigation
-        systems, and aerial monitoring, delivering insights even in remote rural
-        locations.
+      Maintain full visibility across charger clusters, transformer loads, and active sessions — even in dense urban environments.
       </p>
 
       <div className="relative mt-20 mb-10 ml-68 scale-90 sm:mb-16 md:mt-24 md:ml-0 md:scale-100">
@@ -106,7 +104,7 @@ export const Map = () => {
           <div className="relative flex items-center justify-center">
             <div className="absolute size-10 rounded-full bg-gray-950 ring-1 ring-white/15"></div>
             <div className="absolute -top-4 -right-[3.7rem] flex w-fit items-center justify-center rounded-full bg-gray-950 px-1.5 py-0.5 text-xs whitespace-nowrap text-white ring-1 ring-white/15">
-              Scanning
+            Scheduling
             </div>
             <RiPlaneLine className="relative size-5 rotate-90 text-white" />
             <div
@@ -121,7 +119,7 @@ export const Map = () => {
           <div className="relative flex items-center justify-center">
             <div className="absolute size-10 rounded-full bg-gray-950 ring-1 ring-white/15"></div>
             <div className="absolute -top-4 -right-[3.7rem] flex w-fit items-center justify-center rounded-full bg-gray-950 px-1.5 py-0.5 text-xs whitespace-nowrap text-white ring-1 ring-white/15">
-              Irrigating
+            Load Throttling
             </div>
             <Icons.QuadCopter className="relative size-5 rotate-90 text-white" />
             <div
@@ -136,7 +134,7 @@ export const Map = () => {
           <div className="relative flex items-center justify-center">
             <div className="absolute size-10 rounded-full bg-gray-950 ring-1 ring-white/15"></div>
             <div className="absolute -top-4 -right-[3.7rem] flex w-fit items-center justify-center rounded-full bg-gray-950 px-1.5 py-0.5 text-xs whitespace-nowrap text-white ring-1 ring-white/15">
-              Scanning
+            Emergency Priority
             </div>
             <RiPlaneLine className="relative size-5 rotate-90 text-white" />
             <div
@@ -157,7 +155,7 @@ export const Map = () => {
           <div className="relative flex items-center justify-center">
             <div className="absolute size-10 rounded-full bg-gray-950 ring-1 ring-white/15"></div>
             <div className="absolute -top-4 -right-7 flex w-fit items-center justify-center rounded-full bg-gray-950 px-1.5 py-0.5 text-xs whitespace-nowrap text-white ring-1 ring-white/15">
-              Idle
+            Idle Detection
             </div>
             <RiTruckFill className="relative size-5 text-white" />
           </div>

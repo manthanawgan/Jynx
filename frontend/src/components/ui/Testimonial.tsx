@@ -25,12 +25,10 @@ export default function Testimonial() {
           <blockquote className="relative max-w-2xl text-xl leading-relaxed tracking-tight text-gray-900 md:text-2xl lg:text-3xl">
             <p className="before:absolute before:top-0 before:right-full before:content-['“'] after:text-gray-900/70 after:content-['”']">
               <strong className="font-semibold">
-                Solar transformed our environmental monitoring capabilities.
+              Jynx-EV transformed how our residential charging hubs operate.
               </strong>{" "}
               <span className="text-gray-900/70">
-                Their autonomous network provides real-time data on forest
-                health, wildlife patterns, and ecosystem changes with
-                unprecedented precision and efficiency.
+              Their scheduling engine reduced evening peaks, eliminated long queues, and gave emergency vehicles priority access when it mattered most.
               </span>
             </p>
           </blockquote>
@@ -50,7 +48,7 @@ export default function Testimonial() {
               Dr. Sarah Miller
             </div>
             <div className="text-sm text-[#C33621]/80">
-              Director of Conservation Technologies
+            Director of Urban Mobility Systems
             </div>
           </div>
         </div>

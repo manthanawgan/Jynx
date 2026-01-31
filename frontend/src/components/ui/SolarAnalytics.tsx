@@ -19,11 +19,11 @@ export function SolarAnalytics() {
           id="solar-analytics"
           className="relative scroll-my-24 text-lg font-semibold tracking-tight text-orange-500"
         >
-          Solar Analytics
+          Jynx-ev Analytics
           <div className="absolute top-1 -left-[8px] h-5 w-[3px] rounded-r-sm bg-orange-500" />
         </h2>
         <p className="mt-2 max-w-lg text-3xl font-semibold tracking-tighter text-balance text-gray-900 md:text-4xl">
-          Turn field data into profitable harvests with real-time insights
+        Turn charging data into grid-safe growth.
         </p>
       </div>
       <div className="*:pointer-events-none">
@@ -33,23 +33,23 @@ export function SolarAnalytics() {
       <div className="grid grid-cols-1 grid-rows-2 gap-6 md:grid-cols-4 md:grid-rows-1">
         <StickerCard
           Icon={RiNavigationFill}
-          title="Autonomous Navigation"
-          description="Smart tractors that navigate fields independently using GPS."
+          title="Dynamic Slot Scheduling"
+          description="AI-driven algorithms fairly distribute charging time based on demand, battery state, and grid constraints."
         />
         <StickerCard
           Icon={RiRobot3Fill}
-          title="Robotic Harvesting"
-          description="AI-powered robots that identify and harvest crops at optimal ripeness."
+          title="Emergency Verification"
+          description="Real-time vehicle telemetry ensures priority is granted only when truly needed."
         />
         <StickerCard
           Icon={RiDropFill}
-          title="Smart Irrigation"
-          description="Automated irrigation systems that optimize water usage."
+          title="Fleet Integration"
+          description="Public transport, logistics, and emergency fleets connect via secure APIs for coordinated charging."
         />
         <StickerCard
           Icon={RiPieChartFill}
-          title="Yield Analytics"
-          description="Advanced analytics platform that predicts crop yields."
+          title="Load-Aware Throttling"
+          description="Automatically reduce or boost charger power to prevent transformer overloads."
         />
       </div>
     </section>
