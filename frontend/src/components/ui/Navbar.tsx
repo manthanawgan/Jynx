@@ -24,15 +24,9 @@ export function NavBar() {
     >
       <div className="w-full md:my-auto">
         <div className="relative flex items-center justify-between">
-<<<<<<< HEAD
           <Link href={siteConfig.baseLinks.home} aria-label="Home" className="flex items-center gap-2">
             <Image src="/logo.png" alt="Jynx Logo" width={40} height={40} className="h-auto w-auto" />
             <span className="text-lg font-semibold text-gray-900">{siteConfig.name}</span>
-=======
-          <Link href={siteConfig.baseLinks.home} aria-label="Home">
-            <span className="sr-only">Jynx-ev Logo</span>
-            <SolarLogo className="w-22" />
->>>>>>> ed78bd9470bd35c78cfc51dd52c4a93317bcf94c
           </Link>
           <nav className="hidden sm:block md:absolute md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:transform">
             <div className="flex items-center gap-10 font-medium">
@@ -80,17 +74,17 @@ export function NavBar() {
         >
           <ul className="space-y-4 font-medium">
             <li onClick={() => setOpen(false)}>
-              <Link href="#solutions">Solutions</Link>
+              <Link href="#solutions">Platform</Link>
             </li>
             <li onClick={() => setOpen(false)}>
-              <Link href="#farm-management">Farm Management</Link>
+              <Link href="#farm-management">Charging Operations</Link>
             </li>
             <li onClick={() => setOpen(false)}>
-              <Link href="#solar-analytics">Analytics</Link>
+              <Link href="#solar-analytics">Grid Intelligence</Link>
             </li>
           </ul>
           <Button variant="secondary" className="text-lg">
-            Get a quote
+            Talk to Our Team
           </Button>
         </nav>
       </div>
